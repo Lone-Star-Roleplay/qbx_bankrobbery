@@ -13,37 +13,37 @@ return {
 
     lockerRewards = {
         ["tier1"] = {
-            [1] = {item = "goldchain", minAmount = 5, maxAmount = 15},
+            [1] = {item = "goldchain", minAmount = 1, maxAmount = 2}, -- 50% chance for a few gold chains
         },
         ["tier2"] = {
-            [1] = {item = "rolex", minAmount = 5, maxAmount = 15},
+            [1] = {item = "rolex", minAmount = 1, maxAmount = 2}, -- 50% chance for a Rolex or two
         },
         ["tier3"] = {
-            [1] = {item = "goldbar", minAmount = 1, maxAmount = 2},
+            [1] = {item = "diamond_ring", minAmount = 1, maxAmount = 1}, -- 50% chance for a single diamond ring
         },
     },
-
+    
     lockerRewardsPaleto = {
         ["tier1"] = {
-            [1] = {item = "goldchain", minAmount = 10, maxAmount = 20},
+            [1] = {item = "goldchain", minAmount = 3, maxAmount = 6}, -- Medium quantity of gold chains for base tier
         },
         ["tier2"] = {
-            [1] = {item = "rolex", minAmount = 10, maxAmount = 20},
+            [1] = {item = "rolex", minAmount = 4, maxAmount = 7}, -- Several Rolex watches for mid-tier
         },
         ["tier3"] = {
-            [1] = {item = "goldbar", minAmount = 2, maxAmount = 4},
+            [1] = {item = "goldbar", minAmount = 5, maxAmount = 10}, -- Gold bars for high-tier reward
         },
     },
 
     lockerRewardsPacific = {
         ["tier1"] = {
-            [1] = {item = "goldbar", minAmount = 4, maxAmount = 8},
+            [1] = {item = "goldbar", minAmount = 2, maxAmount = 3}, -- Reduced to account for 10 lockers
         },
         ["tier2"] = {
-            [1] = {item = "goldbar", minAmount = 4, maxAmount = 8},
+            [1] = {item = "goldbar", minAmount = 3, maxAmount = 5}, -- Moderate quantity of gold bars for tier 2
         },
         ["tier3"] = {
-            [1] = {item = "goldbar", minAmount = 4, maxAmount = 8},
+            [1] = {item = "diamond", minAmount = 1, maxAmount = 1}, -- One high-value item per tier 3 locker
         },
     },
 
